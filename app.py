@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 PASTEBIN_API_URL = "https://pastebin.com/api/api_post.php"
-PASTEBIN_API_KEY = "Your Api Key Here"  # Masukkan API Key langsung
+PASTEBIN_API_KEY = "MIqSmaGlSwMyJ2rtVvTKGnPNVr4zMmfe"  # Masukkan API Key langsung
 
 @app.route("/create_paste", methods=["POST"])
 def create_paste():
